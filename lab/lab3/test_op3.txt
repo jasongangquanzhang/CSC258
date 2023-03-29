@@ -1,0 +1,9 @@
+# Test Vector for op3
+A[4]     B[4]   OPout[8]
+# test each digit when A is 0000 and B are all 1s
+ 0000    1111    11111111  
+# test each digit when B is 0000 and A are all 1s
+ 1111    0000    11111111 
+# test extreme case
+ 0000    0000    00000000
+ 1111    1111    11110000  

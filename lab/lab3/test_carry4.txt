@@ -1,0 +1,13 @@
+# Test Vector for ripple_carry4
+A[4]     B[4]   Cin  S[4]  Cout
+#test for display and summation
+ 0000    0000    0   0000    0  
+ 0000    0000    1   0001    0 
+ 0000    1111    0   1111    0  
+ 1111    0000    0   1111    0  
+
+# test for carry bit
+ 0001    1111    0   0000    1  
+ 0000    1111    1   0000    1  
+ 1111    0000    1   0000    1  
+ 1111    0001    0   0000    1  
