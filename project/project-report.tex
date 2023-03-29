@@ -1,0 +1,113 @@
+\documentclass{article}
+
+%% Page Margins %%
+\usepackage{geometry}
+\geometry{
+    top = 0.75in,
+    bottom = 0.75in,
+    right = 0.75in,
+    left = 0.75in,
+}
+
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{parskip}
+
+\title{Assembly Project: Breakout}
+
+% TODO: Enter your name
+\author{Jason Zhang}
+
+\begin{document}
+\maketitle
+
+\section{Instruction and Summary}
+
+\begin{enumerate}
+
+    \item Which milestones were implemented? 
+    % TODO: List the milestone(s) and in the case of 
+    %       Milestones 4 & 5, list what features you 
+    %       implemented, sorted into easy and hard 
+    %       categories.
+    Milestone 1, 2, 3
+
+    \item How to view the game:
+    % TODO: specify the pixes/unit, width and height of 
+    %       your game, etc.  NOTE: list these details in
+    %       the header of your breakout.asm file too!
+    
+    \begin{enumerate}
+
+    \item Unit width in pixels:       8
+    \item Unit height in pixels:      8
+    \item Display width in pixels:    512
+    \item Base Address for Display:   0x10008000 (\$gp)
+
+
+    \end{enumerate}
+
+    
+
+\begin{figure}[ht!]
+    \centering
+    \includegraphics[width=0.3\textwidth]{name.png}
+    \caption{caption}
+    \label{Instructions}
+\end{figure}
+
+\item Game Summary:
+% TODO: Tell us a little about your game.
+\begin{itemize}
+\item press 1 to start
+\item the game now support exit(press q)
+\item the game would black out if the player lose
+\item collusion is supported
+\item Support “multiple lives” (3) so that the player can continue the game multiple times. The state of the game (i.e., broken bricks) are retained for subsequent attempts.
+\item Allow the user to pause the game by pressing the keyboard key p. and press other keys to continue.
+\item Add ‘unbreakable’ bricks.( two grey in middle)
+\item Add a second paddle that is controlled by a second player using different keys.(use comma and dot to control)
+\item Allow the player to launch the ball at the beginning of each attempt.(use W, A, S, D to control movement of the ball)
+\item Require bricks be hit by the ball multiple times before breaking. 
+
+\end{itemize}
+
+    
+\end{enumerate}
+
+\section{Attribution Table}
+% TODO: If you worked in partners, tell us who was 
+%       responsible for which features. Some reweighting 
+%       might be possible in cases where one group member
+%       deserves extra credit for the work they put in.
+
+\begin{center}
+\begin{tabular}{|| c | c ||}
+\hline
+ Student 1 (Name and student number) &  Student 2 (Name and student number) \\ 
+ \hline
+ Task & Task\\
+ \hline
+ Task & Task\\
+ \hline
+ Task & Task\\ 
+ \hline
+ Task & Task\\ 
+ \hline
+ Task & Task\\
+ \hline
+ Task & Task\\  
+ \hline
+\end{tabular}
+\end{center}
+
+% TODO: Fill out the remainder of the document as you see 
+%       fit, including as much detail as you think 
+%       necessary to better understand your code. 
+%       You can add extra sections and subsections to 
+%       help us understand why you deserve marks for 
+%       features that were more challenging than they
+%       might initially seem.
+
+
+\end{document}
