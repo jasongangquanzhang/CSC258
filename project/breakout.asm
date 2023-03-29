@@ -1,8 +1,7 @@
-################ CSC258H1F Fall 2022 Assembly Final Project ##################
+################ CSC258H1S Winter 2023 Assembly Final Project ##################
 # This file contains our implementation of Breakout.
 #
 # Student 1: Jason Zhang, 1007627294
-# Student 2: Name, Student Number
 ######################## Bitmap Display Configuration ########################
 # - Unit width in pixels:       8
 # - Unit height in pixels:      8
